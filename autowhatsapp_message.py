@@ -1,2 +1,2 @@
 import pywhatkit
-pywhatkit.sendwhatmsg("+9779860195167", "Hello,its a message send by python auto generation", 21, 55)
+pywhatkit.sendwhatmsg("+numbber", "Hello,K cha halkhabar? its a message send by python auto generation", 18, 7)
