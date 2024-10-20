@@ -87,3 +87,22 @@ print(type(y))
 <class 'int'>
 <class 'str'>
     """
+    
+    #Python Boolean
+    
+""" In python there is true and false as boolean value  """
+#example
+print(10 > 9)  # Output: True
+print(10 == 9)  # Output: False
+print(10 < 9)  # Output: False
+
+''' Python divides the operators in the following groups:
+
+Arithmetic operators(+,-,*,/,%,**,//)
+Assignment operators(=,+=,-=,*=,/=,%=,**=,//=)
+Comparison operators(==,!=,>,<,>=,<=)
+Logical operators(and,or,not)
+Identity operators(is,is not)
+Membership operators(in,not in)
+Bitwise operators(&,|,^,~,<<,>>)
+'''
