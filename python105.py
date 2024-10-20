@@ -52,3 +52,34 @@ if(5<2):
     print("5 is less than 2")
 else:
     print("5 is not less than 2")
+    
+    
+    # Repition Control Statements
+    
+    """ 
+    while
+    for
+    """
+    #For Loop
+    
+    """ 
+    syntax : 
+    for item in sequence:
+        statements
+    """
+    #example
+    for i in range(1,11):# this will print 1 to 11
+        print(i)
+        
+        #While Loop
+        
+        """ 
+        syntax : 
+        while condition:
+            statements
+        """
+        #example
+        i=1
+        while(i<=10):
+            print(i)
+            i+=1
