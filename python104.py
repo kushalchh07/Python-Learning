@@ -63,3 +63,27 @@ x, y, z = "Orange", "Banana", "Cherry"
 print(x)
 print(y)
 print(z)
+
+#python datatypes
+"""
+    Python has the following data types built-in by default, in these categories:
+
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+None Type:	NoneType
+    """
+    # we can get the type of any variable using type() function\
+
+x = 5
+y = "John"
+print(type(x))
+print(type(y))
+"""  Output:  
+<class 'int'>
+<class 'str'>
+    """
