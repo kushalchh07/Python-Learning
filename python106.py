@@ -13,24 +13,45 @@ and tokens of Python. It contains built-in modules that provide access
     make a programmer’s life easier. Let’s have a look at some of the commonly used libraries:
 """    
    
-from math import sqrt, sin # import only the sqrt and sin functions from the math module 
-import datetime
-A = 16
-B = 3.14
-print(sqrt(A))
-print(sin(B))
+# from math import sqrt, sin # import only the sqrt and sin functions from the math module 
+# import datetime
+# A = 16
+# B = 3.14
+# print(sqrt(A))
+# print(sin(B))
 
 
 
-# Getting the current date and time
-current_time = datetime.datetime.now()
-print(f"Current Date and Time: {current_time}")
+# # Getting the current date and time
+# current_time = datetime.datetime.now()
+# print(f"Current Date and Time: {current_time}")
 
-# Formatting a date
-formatted_date = current_time.strftime("%Y-%m-%d %H:%M:%S")
-print(f"Formatted Date: {formatted_date}")
+# # Formatting a date
+# formatted_date = current_time.strftime("%Y-%m-%d %H:%M:%S")
+# print(f"Formatted Date: {formatted_date}")
 
-# Creating a specific date
-specific_date = datetime.datetime(2023, 12, 25)
-print(f"Specific Date: {specific_date}")
+# # Creating a specific date
+# specific_date = datetime.datetime(2023, 12, 25)
+# print(f"Specific Date: {specific_date}")
+
+
+import os
+
+# Getting the current working directory
+current_directory = os.getcwd()
+print(f"Current Directory: {current_directory}")
+
+# Listing files and directories in a folder
+files = os.listdir(".")
+print(f"Files in current directory: {files}")
+
+# Creating a new directory
+new_dir = "example_directory"
+os.mkdir(new_dir)
+print(f"Created directory: {new_dir}")
+
+# Deleting the directory
+os.rmdir(new_dir)
+print(f"Deleted directory: {new_dir}")
+
 
