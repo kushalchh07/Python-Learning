@@ -133,13 +133,26 @@ for i in range(len(thistuple)):
   """
   
   #join tuples
+"""
 tuple1 = ("a", "b" , "c")
 tuple2 = (1, 2, 3)
 
 tuple3 = tuple1 + tuple2
 print(tuple3)
-
+ """
 #multiplying tuples
+"""
 fruits = ("apple", "banana", "cherry")
 mytuple = fruits * 2
 print(mytuple)
+ """
+ #tuple methods
+ 
+#count method
+fruits = ("apple", "banana", "cherry")
+count = fruits.count("cherry")
+print(count)
+ 
+#index method
+index = fruits.index("cherry")
+print(index)
