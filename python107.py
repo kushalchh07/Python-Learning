@@ -61,6 +61,7 @@ if "apple" in thistuple:
   print("Yes, 'apple' is in the fruits tuple") 
   """
 
+"""
 #update tuples
 thistuple = ("apple", "banana", "cherry")
 y = ("orange",)
@@ -68,8 +69,44 @@ thistuple += y
 print(thistuple)
 
 #delete tuples  
+# thistuple = ("apple", "banana", "cherry")
+# del thistuple
+# print(thistuple)
+
+ # remove item from tuple
 thistuple = ("apple", "banana", "cherry")
-del thistuple
+y = list(thistuple)
+y.remove("apple")
+thistuple = tuple(y)
 print(thistuple)
 
- 
+#unpacking tuples
+fruits = ("apple", "banana", "cherry")
+(green, yellow, red) = fruits
+print(green)
+print(yellow)
+print(red)
+
+"""
+
+# using asterisk
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+(green, yellow, *red) = fruits
+print(green)
+print(yellow)
+print(red)
+
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(green, *yellow, red) = fruits
+
+print(green)
+print(yellow)
+print(red)
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(*green, yellow, red) = fruits
+
+print(green)
+print(yellow)
+print(red)
