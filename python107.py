@@ -88,7 +88,7 @@ print(yellow)
 print(red)
 
 """
-
+"""
 # using asterisk
 fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
 (green, yellow, *red) = fruits
@@ -110,3 +110,21 @@ fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
 print(green)
 print(yellow)
 print(red)
+"""
+#loop through tuples
+
+thistuple = ("apple", "banana", "cherry")
+for x in thistuple:
+  print(x)
+
+thistuple = ("apple", "banana", "cherry")
+print(len(thistuple))
+i = 0
+while i < len(thistuple):
+  print(thistuple[i])
+  i = i + 1
+
+
+thistuple = ("apple", "banana", "cherry")
+for i in range(len(thistuple)):
+  print(thistuple[i])
